@@ -1,0 +1,11 @@
+:root {
+  --sl-font: 'Poppins', serif;
+}
+
+img {
+  border-radius: 15px;  
+}
+
+div.shadow img{
+  box-shadow: 0px 0px 5px #000;
+}
