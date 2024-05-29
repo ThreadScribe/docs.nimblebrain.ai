@@ -9,3 +9,12 @@ img {
 div.shadow img{
   box-shadow: 0px 0px 5px #000;
 }
+
+.video-wrapper {
+  height: 400px;
+}
+
+.video-wrapper iframe {
+  height: 100%;
+  width: 100%;
+}

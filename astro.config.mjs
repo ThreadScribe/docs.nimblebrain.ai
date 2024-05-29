@@ -27,8 +27,23 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             { label: "Introduction", link: "/" },
             { label: "Quickstart", link: "/overview/quickstart" },
-            { label: "FAQ", link: "/overview/faq" },
+            // { label: "FAQ", link: "/overview/faq" },
           ],
+        },
+        {
+          label: "User Guide",
+          items: [
+            { label: "Autoresponders", link: "/customization/autoresponders" },
+            { label: "Q&A", link: "/customization/questions-and-answers" },
+            { label: "Sources", link: "/customization/sources" },
+          ],
+        },
+        {
+          label: "Installing Copilots",
+          items: [{ 
+            label: "Slack Copilot", 
+            link: "https://bot.threadscribe.ai/slack/install",
+          }],
         },
         {
           label: "Resources",
