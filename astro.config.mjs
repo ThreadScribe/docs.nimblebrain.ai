@@ -50,6 +50,25 @@ export default defineConfig({
           items: [{ label: "Support", link: "/support/" }],
         },
       ],
+
+      head: [
+        {
+          tag: 'script', 
+          attrs: {
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-XDC5PBCFNJ',
+            async: true,
+          }
+        }, 
+        {
+          tag: 'script', 
+          content: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XDC5PBCFNJ');
+          `
+        }
+      ]
     }),
   ],
 });
