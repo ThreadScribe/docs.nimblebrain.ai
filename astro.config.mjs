@@ -13,7 +13,12 @@ export default defineConfig({
       },
       favicon: './src/assets/threadscribe_head_square_64.png',
       social: {
+        slack: "https://join.slack.com/t/threadscribe-users/shared_invite/zt-2jpyzxgvl-7_kFJQHyJSmJzWXmYK8cMg",
+        linkedin: "https://www.linkedin.com/company/threadscribeai/",
         github: "https://github.com/ThreadScribe/docs.threadscribe.ai",
+      },
+      components: {
+        Head: './src/components/CustomHead.astro',
       },
       customCss: [
         './src/styles/custom.css',
