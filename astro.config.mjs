@@ -7,11 +7,11 @@ export default defineConfig({
 
   integrations: [
     starlight({
-      title: "ThreadScribe.ai",
+      title: "NimbleBrain.ai",
       logo: {
-        src: './src/assets/threadscribe_head_square_64.png',
+        src: './src/assets/logo_only_transparant.png',
       },
-      favicon: './src/assets/threadscribe_head_square_64.png',
+      favicon: './src/assets/logo_only_transparant.png',
       social: {
         slack: "https://join.slack.com/t/threadscribe-users/shared_invite/zt-2jpyzxgvl-7_kFJQHyJSmJzWXmYK8cMg",
         linkedin: "https://www.linkedin.com/company/threadscribeai/",

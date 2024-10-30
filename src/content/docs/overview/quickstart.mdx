@@ -16,7 +16,7 @@ import { Aside, Steps } from "@astrojs/starlight/components";
 
     If you already have an account, click [HERE](https://accounts.nimblebrain.ai/sign-in?redirect_url=https%3A%2F%2Fapp.nimblebrain.ai%2F) to  sign back into your account. Then open the application by clicking `Continue`.)
     <div class="shadow">
-      ![Installing Threadscribe](../../../assets/installing_threadscribe.png)
+      ![Installing Threadscribe](../../../assets/signinpage.jpg)
     </div>
 
     After successfully entering your email and password, you will be redirected to the homepage of the NimbleBrain application.
@@ -28,11 +28,11 @@ import { Aside, Steps } from "@astrojs/starlight/components";
 
     On the Homepage, on the left hand side, select `Datasets` 
 
-    ![Installing Threadscribe](../../../assets/tutorial_summary_ask.png)
+    ![Installing Threadscribe](../../../assets/NB_homepage.jpg)
 
     Once selected, you will be redirected to the **Datasets** page and should see all of the datasets created thus far.
 
-    ![Installing Threadscribe](../../../assets/tutorial_generated_summary.png)
+    ![Installing Threadscribe](../../../assets/datasetpage.jpg)
 
     To create a new Dataset, click `+ Create Dataset` and enter your **Dataset Name** and **Description** then click `Create Dataset` once completed.
 
@@ -41,6 +41,8 @@ import { Aside, Steps } from "@astrojs/starlight/components";
     
     On the screen you will see a window with multiple potential sources like **Airtable**, **Notion**, **Slack**, **PDF**, **CSV**, **TXT**, **URL**, and more. Select the source you will be utilizing by simply clicking on the source.
 
+    ![Installing Threadscribe](../../../assets/Upload_datasource.jpg)
+    
     Once a source has been selected, name your file and provide a file description accordingly. Then select you file by clicking `Choose File` under the **Select File** section. You will see a window pop up to select you file. Once the file is chosen, upload your source by clicking the `Upload File` button.
     
     <Aside>Individual data sources are generally limited to a maximum of 5MB per file. If the file exceeds 5MB, try breaking the source up to minimize the file size. If no response is received, please let us know by contacting us via [support](/support/).</Aside>
@@ -55,19 +57,23 @@ import { Aside, Steps } from "@astrojs/starlight/components";
     
     You will be redirected to **Your Agents** page with a list of all of your agents.
 
-    ![Make a query](../../../assets/threadscribe_query.png)
+    ![Make a query](../../../assets/agent_homepage.jpg)
 
     To create an **Agent** simply press ` + Create Agent` in the top right corner of the page.
 
     1. **Select Agent:** You will be provided with the option to select two different agent types: **Question and Answer** and **Conversational Agent**. Simply click on the agent that works best for your intended application.
 
+    ![Installing Threadscribe](../../../assets/agent_step1.jpg)
+
     2. **Name Agent:** Once the Agent Type is selected, enter your Agent Name then click `Next`.
 
     3. **Describe Agent:** From there you will see seven different **Agent Descriptions** that can be used as templates to configure your agent. The final option provides you with the option to generate your agent with AI. Select the **Agent Description** that works best for you by simply clicking on the description.
-    
+
+    ![Installing Threadscribe](../../../assets/agent_step3.jpg)
+
     4. **Add Datasets:** Lastly, Select your **Dataset** that you would like you agent to interact with by clicking on the respective **Dataset**. You may select more than one if desired. Once all **Datasets** are selected, click `Create Agent`.
 
-    ![Search results](../../../assets/threadscribe_search_response.png)
+    ![Search results](../../../assets/agent_step4.jpg)
 
     #### Improving your Agent
     🎆 Your Agent should now be ready to interact with! 🎆
@@ -76,12 +82,16 @@ import { Aside, Steps } from "@astrojs/starlight/components";
 
     Once the `Configuration` tab has been selected, you will see a description of the **Agent**, the **Dataset**, and an **Agent Scorecard**.
 
+    ![Installing Threadscribe](../../../assets/agent_configuration_basic.jpg)
+
     You can edit your agent's description by selecting `Edit` next to your agent's title. From there, you can edit your **Agent Description** and Reselect you **Data Sources**. Once content, select, `Update Agent`.
 
     ##### Enhance with AI
 
-     On the **Configurations** tab, you will also see your **Agent Scorecard** which is graded on a scale from 0 to 10. The scorecard explains the strengths and weaknesses of your agent's configuration. You may enhance your agent by selecting the `Enhance with AI` button in the Agent Scorecard box. 
+     On the **Configurations** tab, you will also see your **Agent Scorecard** which is graded on a scale from 0 to 10. The scorecard explains the strengths and weaknesses of your agent's configuration. You may enhance your agent by selecting the `Enhance with AI` button at the <u>bottom</u> of the Agent Scorecard box. 
      
+    ![Installing Threadscribe](../../../assets/agent_configuration_enhanced.jpg)
+
      Once selected, you should see your agent scorecard score change adn your agent description change due to the AI enhancements. You can continue to edit these enhancements by selecting `Edit` by the **Agent Title**.
 
 
@@ -89,14 +99,21 @@ import { Aside, Steps } from "@astrojs/starlight/components";
 
     Once your agent is configured, select the `Chat` tab in the top **Navigation Bar** and start a conversation with your agent! interact with your agent by typing your message then clicking `Send`. From there, your agent should interact with you accordingly. 
 
+     ![Manage Summaries](../../../assets/agent_in_action.jpg)
+
      <Aside>If your agent is not interacting completely as desired, try adjusting your agent's configuration to address any issues with your agent. </Aside>
-      ![Manage Summaries](../../../assets/threadscribe_admin_summaries.png)
+     
     
 5. ## Workflows
 
     Workflows are a more advanced type of tool powered by NimbleBrain. Like agents, they can access data and perform pre-configured tasks enabled by you, but can perform multiple tasks in a predefined order.
 
     To start, select `Workflows` in the Navigation Bar in the top left corner of your window.
+
+    To create a new Workflow, simply select `+ Create Workflow` in the top right of the **your
+     Workflows** page.
+
+    ![Installing Threadscribe](../../../assets/workflows_homepage.jpg)
 
     Enter your Workflow Name, Description of your Process, and Instructions. You may also start with a template by selecting the `Start with a Template` button at the top of your window.
 
