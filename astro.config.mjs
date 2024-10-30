@@ -7,7 +7,7 @@ export default defineConfig({
 
   integrations: [
     starlight({
-      title: "NimbleBrain.ai",
+      title: "NimbleBrain",
       logo: {
         src: './src/assets/logo_only_transparant.png',
       },
@@ -35,21 +35,21 @@ export default defineConfig({
             // { label: "FAQ", link: "/overview/faq" },
           ],
         },
-        {
-          label: "User Guide",
-          items: [
-            { label: "Autoresponders", link: "/customization/autoresponders" },
-            { label: "Q&A", link: "/customization/questions-and-answers" },
-            { label: "Sources", link: "/customization/sources" },
-          ],
-        },
-        {
-          label: "Installing Copilots",
-          items: [{ 
-            label: "Slack Copilot", 
-            link: "https://bot.threadscribe.ai/slack/install",
-          }],
-        },
+      //  {
+      //    label: "User Guide",
+      //    items: [
+      //      { label: "Autoresponders", link: "/customization/autoresponders" },
+      //      { label: "Q&A", link: "/customization/questions-and-answers" },
+      //      { label: "Sources", link: "/customization/sources" },
+      //    ],
+      //  },
+      //  {
+      //    label: "Installing Copilots",
+      //    items: [{ 
+      //      label: "Slack Copilot", 
+      //      link: "https://bot.threadscribe.ai/slack/install",
+      //    }],
+      //  },
         {
           label: "Resources",
           items: [{ label: "Support", link: "/support/" }],
