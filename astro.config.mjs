@@ -3,7 +3,7 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://docs.threadscribe.ai",
+  site: "https://docs.nimblebrain.ai",
 
   integrations: [
     starlight({
@@ -13,9 +13,9 @@ export default defineConfig({
       },
       favicon: './src/assets/logo_only_transparant.png',
       social: {
-        slack: "https://join.slack.com/t/threadscribe-users/shared_invite/zt-2jpyzxgvl-7_kFJQHyJSmJzWXmYK8cMg",
-        linkedin: "https://www.linkedin.com/company/threadscribeai/",
-        github: "https://github.com/ThreadScribe/docs.threadscribe.ai",
+        slack: "https://join.slack.com/t/nimblebrain-users/shared_invite/zt-2jpyzxgvl-7_kFJQHyJSmJzWXmYK8cMg",
+        linkedin: "https://www.linkedin.com/company/nimblebrain/",
+        github: "https://github.com/ThreadScribe/docs.nimblebrain.ai",
       },
       components: {
         Head: './src/components/CustomHead.astro',
