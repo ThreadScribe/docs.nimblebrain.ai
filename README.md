@@ -1,6 +1,6 @@
 # NimbleBrain.ai Docs
 
-[NimbleBrain.ai](https://www.NimbleBrain.ai) is a powerful AI copilot for customer oriented teams.
+[NimbleBrain](https://www.NimbleBrain.ai) is a powerful AI tool providing powerful insights and workflows from your data.
 
 NimbleBrain is a powerful AI SAAS platform that leverages your data to create powerful agents and workflows off your proprietary documentation and information.
 
