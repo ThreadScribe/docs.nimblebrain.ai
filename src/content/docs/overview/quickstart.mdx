@@ -1,55 +1,136 @@
 ---
-title: Quickstart guide to ThreadScribe.ai
-description: Empower your teams to be more productive today. Get started with ThreadScribe.ai in just a few easy clicks FOR FREE.
+title: Quickstart guide to NimbleBrain.
+description: Empower your teams to be more productive today. Get started with NimbleBrain just a few easy clicks FOR FREE.
 ---
 
-Getting started with ThreadScribe is a straightforward process.
+Getting started with NimbleBrain is a straightforward and quick process. 
+
+To work with NimbleBrain, simply upload your **Dataset**, configure your **Agent** or **Workflow** and then unlock the power of your data.
 
 import { Aside, Steps } from "@astrojs/starlight/components";
 
 <Steps>
-1. ## Install the ThreadScribe Copilot
+1. ## Log in to NimbleBrain
 
-    Click [HERE](https://bot.threadscribe.ai/slack/install) here to install the ThreadScribe app to your workspace. Authorize it by clicking `Allow`.
+    Click [HERE](https://app.nimblebrain.ai) to log in or sign up for NimbleBrain. Fill in your information and complete it by clicking `Continue`. 
 
     <div class="shadow">
-      ![Installing Threadscribe](../../../assets/installing_threadscribe.png)
+      ![Installing NimbleBrain](../../../assets/signinpage.jpg)
     </div>
 
-    ThreadScribe will react with the eyes emoji (👀) which indicates that it has received the request.
-
-2. ## Start summarizing
-
-    Find a lengthly thread and ask, `@ThreadScribe can you summarize this for me?`
-
-    ![Installing Threadscribe](../../../assets/tutorial_summary_ask.png)
-
-    Your summary will be generated and posted to the chat.
-
-    ![Installing Threadscribe](../../../assets/tutorial_generated_summary.png)
-
-    <Aside>Summaries generally take about 5-10 second to generate, depending on the length of the thread. If no response is received, please let us know by contacting us via [support](/support/).</Aside>
-
-3. ## Search your summaries
+    After successfully entering your email and password, you will be redirected to the homepage of the NimbleBrain application.
 
 
-    In a channel that ThreadScribe is in, you can ask it any question.
+
+
+2. ## Configuring Datasets
+
+    On the Homepage, on the left hand side, select `Datasets` 
+
+    ![Installing NimbleBrain](../../../assets/NB_homepage.jpg)
+
+    Once selected, you will be redirected to the **Datasets** page and should see all of the datasets created thus far.
+
+    ![Installing NimbleBrain](../../../assets/datasetpage.jpg)
+
+    To create a new Dataset, click `+ Create Dataset` and enter your **Dataset Name** and **Description** then click `Create Dataset` once completed.
+
+    #### Creating a Source of Data
+    Once your Dataset configured, you need to upload your data by selecting ` + Create Source`.
     
-    For example, `@ThreadScribe What does the latest market research indicate about our effective reach?`
+    On the screen you will see a window with multiple potential sources like **Airtable**, **Notion**, **Slack**, **PDF**, **CSV**, **TXT**, **URL**, and more. Select the source you will be utilizing by simply clicking on the source.
 
-    ![Make a query](../../../assets/threadscribe_query.png)
+    ![Installing NimbleBrain](../../../assets/Upload_datasource.jpg)
+    
+    Once a source has been selected, name your file and provide a file description accordingly. Then select you file by clicking `Choose File` under the **Select File** section. You will see a window pop up to select you file. Once the file is chosen, upload your source by clicking the `Upload File` button.
+    
+    <Aside>Individual data sources are generally limited to a maximum of 5MB per file. If the file exceeds 5MB, try breaking the source up to minimize the file size. If no response is received, please let us know by contacting us via [support](/support/).</Aside>
 
-    ThreadScribe will react with the eyes emoji (👀) which indicates that it has received the request. It will then post the response directly to the slack thread.
+    Once your Source has been uploaded, you should see all uploaded sources in your Dataset. From there you can create additional sources by repeating the process or deleting your sources by selecting `Delete` under the respective source.
 
-    ![Search results](../../../assets/threadscribe_search_response.png)
 
-4. ## View and manage your summaries
+3. ## Configuring Agents
 
-    You can view manage your summaries by navigating to our admin UI, [https://app.threadscribe.ai](https://app.threadscribe.ai).
 
-    <div class="shadow">
-      ![Manage Summaries](../../../assets/threadscribe_admin_summaries.png)
-    </div>
+   To interact with your **Datasets** you need to configure an **Agent**. You can do this by selecting `Agents` in the top left Navigation Bar.
+    
+    You will be redirected to **Your Agents** page with a list of all of your agents.
+
+    ![Make a query](../../../assets/agent_homepage.jpg)
+
+    To create an **Agent** simply press ` + Create Agent` in the top right corner of the page.
+
+    1. **Select Agent:** You will be provided with the option to select two different agent types: **Question and Answer** and **Conversational Agent**. Simply click on the agent that works best for your intended application.
+
+    ![Installing NimbleBrain](../../../assets/agent_step1.jpg)
+
+    2. **Name Agent:** Once the Agent Type is selected, enter your Agent Name then click `Next`.
+
+    3. **Describe Agent:** From there you will see seven different **Agent Descriptions** that can be used as templates to configure your agent. The final option provides you with the option to generate your agent with AI. Select the **Agent Description** that works best for you by simply clicking on the description.
+
+    ![Installing NimbleBrain](../../../assets/agent_step3.jpg)
+
+    4. **Add Datasets:** Lastly, Select your **Dataset** that you would like you agent to interact with by clicking on the respective **Dataset**. You may select more than one if desired. Once all **Datasets** are selected, click `Create Agent`.
+
+    ![Search results](../../../assets/agent_step4.jpg)
+
+    #### Improving your Agent
+    🎆 Your Agent should now be ready to interact with! 🎆
+
+    Before you chat with your agent, you can improve your agent even more by selecting `Configuration` on the top **Navigation Bar**.
+
+    Once the `Configuration` tab has been selected, you will see a description of the **Agent**, the **Dataset**, and an **Agent Scorecard**.
+
+    ![Installing NimbleBrain](../../../assets/agent_configuration_basic.jpg)
+
+    You can edit your agent's description by selecting `Edit` next to your agent's title. From there, you can edit your **Agent Description** and Reselect you **Data Sources**. Once content, select, `Update Agent`.
+
+    ##### Enhance with AI
+
+     On the **Configurations** tab, you will also see your **Agent Scorecard** which is graded on a scale from 0 to 10. The scorecard explains the strengths and weaknesses of your agent's configuration. You may enhance your agent by selecting the `Enhance with AI` button at the <u>bottom</u> of the Agent Scorecard box. 
+     
+    ![Installing NimbleBrain](../../../assets/agent_configuration_enhanced.jpg)
+
+     Once selected, you should see your agent scorecard score change adn your agent description change due to the AI enhancements. You can continue to edit these enhancements by selecting `Edit` by the **Agent Title**.
+
+
+4. ## Interacting with your Agent
+
+    Once your agent is configured, select the `Chat` tab in the top **Navigation Bar** and start a conversation with your agent! Interact with your agent by typing your message then clicking `Send`. From there, your agent should interact with you accordingly. 
+
+     ![Manage Summaries](../../../assets/agent_in_action.jpg)
+
+     <Aside>If your agent is not interacting completely as desired, try adjusting your agent's configuration to address any issues with your agent. </Aside>
+     
+    
+5. ## Workflows
+
+    Workflows are a more advanced type of tool powered by NimbleBrain. Like agents, they can access data and perform pre-configured tasks enabled by you, but can perform multiple tasks in a predefined order.
+
+    To start, select `Workflows` in the Navigation Bar in the top left corner of your window.
+
+    To create a new Workflow, simply select `+ Create Workflow` in the top right of the **your
+     Workflows** page.
+
+    ![Installing NimbleBrain](../../../assets/workflows_homepage.jpg)
+
+    Enter your Workflow Name, Description of your Process, and Instructions. You may also start with a template by selecting the `Start with a Template` button at the top of your window.
+
+    From there, enter your first **Parameter Name** and select one of two **Parameter Types** `Text Input` or `File Upload`. Once completed, select ` + Add Parameter`.
+
+    You should see your list of **Current Parameters** grow at the bottom of your window with each additional parameter added.
+
+    When complete, select `Create Workflow`.
+
+    From there, adjust your tasks for your workflows by adjusting your **Task** order from Start to End.
+
+    ![Installing NimbleBrain](../../../assets/workflow_editor.jpg)
+
+    Configure your **Dataset** on the right hand page of the window. 
+
+    When your Workflow Agent is complete, save your Workflow by selecting `Save` in the top right corner.
+
+    You may also run and test your Workflow Agent by selecting `Run`.
 
 
 </Steps>

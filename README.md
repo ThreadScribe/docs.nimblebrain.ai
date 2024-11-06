@@ -1,8 +1,8 @@
-# ThreadScribe.ai Docs
+# NimbleBrain.ai Docs
 
-[ThreadScribe.ai](https://www.threadscribe.ai) is a powerful AI copilot for customer oriented teams.
+[NimbleBrain](https://www.NimbleBrain.ai) is a powerful AI tool providing powerful insights and workflows from your data.
 
-ThreadScribe integrates seamlessly with popular tools such as Slack and Notion, providing a centralized, powerful search engine to enhance your team's efficiency and productivity.
+NimbleBrain is a powerful AI SAAS platform that leverages your data to create powerful agents and workflows off your proprietary documentation and information.
 
 These docs are [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
